@@ -23,12 +23,12 @@ function Header() {
                         <Nav.Link href="#pricing">Publications</Nav.Link>
                     </Nav>
                     <Nav>
-                    <Nav.Link href="#deets"><img className = {styles.logo} src={githublogo} /></Nav.Link>
+                        <Nav.Link href="home"><img className={styles.logo} src={githublogo} /></Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="#deets"><img className = {styles.socials} src={githublogo} /></Nav.Link>
-                        <Nav.Link href="#deets"><img className = {styles.socials} src={email} /></Nav.Link>
-                        <Nav.Link href="#deets"><img className = {styles.socials} src={phone} /></Nav.Link>
+                        <Nav.Link href="mailto:akashbharat.bhatnagar@gmail.com"><img className={styles.socials} src={email} /></Nav.Link>
+                        <Nav.Link href="tel:+918384041898"><img className={styles.socials} src={phone} /></Nav.Link>
                     </Nav>
 
                     

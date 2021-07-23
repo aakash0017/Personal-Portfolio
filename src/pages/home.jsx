@@ -8,10 +8,10 @@ import FadeIn from 'react-fade-in'
 
 function Home() {
     return (
-        <>
-        <FadeIn delay = {100}><Header /></FadeIn>
+        <div className = {styles.home}>
+        <Header />
             
-            <FadeIn delay = {200}>
+            <FadeIn delay = {200} transitionDuration = {3000}>
                 <div className={styles.container}>
                     <div className={styles.card}>hello</div>
                     <FadeIn delay = {100}><div className={styles.card}><img src={potrait} className={styles.potrait} /></div></FadeIn>
@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </FadeIn>
 
-        </>
+        </div>
     )
 }
 
