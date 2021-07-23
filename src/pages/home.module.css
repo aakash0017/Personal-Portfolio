@@ -1,0 +1,17 @@
+.container{
+    width: 90%;
+    margin: 5em auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.potrait{
+
+    width: 20em;
+    height: 20em;
+}
+
+.card{
+    border: 1px red solid;
+}
+
