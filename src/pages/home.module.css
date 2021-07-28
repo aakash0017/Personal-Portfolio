@@ -1,21 +1,54 @@
-.container{
+.intro {
     width: 90%;
     margin: 5em auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 0.3fr 1fr 0.5fr;
+    min-height: 75vh;
+
 }
+.aboutme {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.5fr;
 
-.potrait{
-
+}
+.potrait {
     width: 20em;
     height: 20em;
 }
 
-.card{
-    border: 1px red solid;
+.card {
+    text-align: left;
+    width: 100%;
+    min-width: 1em;
+
 }
-.home{
-    background-color: #EEEEEE;
+
+.home {
+    background-color: #fafafa;
     min-height: 100vh;
 }
 
+.mynameis {
+    font-size: 1em;
+    margin-top: 2.5em;
+}
+
+.name {
+    font-size: 4em;
+    margin-top: 0.3em;
+}
+
+.tagline {
+    font-size: 4em;
+    margin-top: 0.3em;
+}
+
+.description {
+    margin-top: 0.3em;
+}
+
+.aboutmeHeading{
+    font-size: 1em;
+}
