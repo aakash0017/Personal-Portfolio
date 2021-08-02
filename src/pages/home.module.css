@@ -3,7 +3,7 @@
     margin: 5em auto;
     display: grid;
     grid-template-columns: 0.3fr 1fr 0.5fr;
-    min-height: 75vh;
+    min-height: 75`vh;
 
 }
 .aboutme {
